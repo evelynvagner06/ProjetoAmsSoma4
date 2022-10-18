@@ -1,7 +1,7 @@
 <?php
-    $pNumero = floatval ($_GET['txtPNumero']);
-    $sNumero = floatval ($_GET['txtSNumero']);
-    $soma = $sNumero + $pNumero;
-    echo "Soma:<b>" . $soma . "</b>";
+    $PNumero = floatval ($_GET['txtPNumero']);
+    $SNumero = floatval ($_GET['txtSNumero']);
+    $Soma = $SNumero + $PNumero;
+    echo "Soma:<b>" . $Soma . "</b>";
 
 ?>
